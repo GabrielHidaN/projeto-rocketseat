@@ -26,9 +26,9 @@
 
 body {
   /*background: color image repeat position/size*/
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat center/cover;
   color: var(--text-color);
-  height: 100vh;
+  
 }
 
 body * {
