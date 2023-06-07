@@ -28,6 +28,7 @@ body {
   /*background: color image repeat position/size*/
   background: var(--bg-url) no-repeat top center/cover;
   color: var(--text-color);
+  height: 100vh;
 }
 
 body * {
@@ -163,3 +164,13 @@ footer a {
   text-decoration: none;
 }
 
+/* media queries */
+@media (min-width: 700px) {
+  :root{
+    --bg-url: url(./assets/dark-desktop.jpg);
+  }
+
+  .light{
+    --bg-url: url(./assets/light-desktop.jpg);
+  }
+}
